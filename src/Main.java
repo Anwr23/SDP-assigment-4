@@ -67,7 +67,7 @@ public class Main {
         // Отписываем одного из подписчиков
         channel.unsubscribe(subscriber1);
 
-        // Опубликовываем еще одно видео
+
         channel.publishNewVideo("Видео 2");
     }
 }
