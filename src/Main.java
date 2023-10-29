@@ -61,7 +61,7 @@ public class Main {
         channel.subscribe(subscriber1);
         channel.subscribe(subscriber2);
 
-        // Опубликовываем новое видео
+        // Опубликовываем новое
         channel.publishNewVideo("Видео 1");
 
         // Отписываем одного из подписчиков
