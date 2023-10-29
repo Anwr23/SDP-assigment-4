@@ -8,7 +8,7 @@ interface Observer {
 
 // Класс для канала (субъекта)
 class YouTubeChannel {
-    private List<Observer> subscribers = new ArrayList<>();
+    private final List<Observer> subscribers = new ArrayList<>();
     private String latestVideoTitle;
 
     // Метод для добавления подписчика
@@ -37,7 +37,7 @@ class YouTubeChannel {
 
 // Класс для подписчика
 class Subscriber implements Observer {
-    private String name;
+    private final String name;
 
     public Subscriber(String name) {
         this.name = name;
