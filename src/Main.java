@@ -35,7 +35,7 @@ class YouTubeChannel {
     }
 }
 
-// Класс для подписчика
+// Класс для
 class Subscriber implements Observer {
     private final String name;
 
